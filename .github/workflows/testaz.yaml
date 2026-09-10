@@ -11,7 +11,7 @@ jobs:
   test-azure-auth:
     runs-on: ubuntu-latest
 
-    environment: azure-test
+    environment: prod
 
     steps:
       - name: Checkout
